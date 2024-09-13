@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head><title>Задание №1</title></head>
+  <body>
+<h2>Задание 1</h2>
+  <ul>
+	<li><a href="www.kubsu.ru/ru"> 1)кубгу </a> </li>
+	<li><a href="https://www.kubsu.ru"> 2)кубгу(протокол https) </a> </li>
+	<li><br><a href = "https://dota2.fandom.com/ru/wiki/Pudge"> <img src = "https://cybersport.metaratings.ru/storage/images/f1/b2/f1b23fd37d9daafa7a7841d1ee74c6d7.jpg" style = "width: 384px; height: 216px"> </a><br><br></li>
+	<li><a href="second_page.html"> 4)внутренняя страница </a> </li>
+	<li><a href="index.html"> 5)главная страница </a> </li>
+	<li><a href="#URLpoint"> 6)ссылка на фрагмент текцщей страницы </a> </li>
+	<li><a href="kubsu.ru?first=1&second=2&third=3">7)гиперссылка c параметрами в URL</a></li>
+	<li><a href="kubsu.ru?id=kub1">8)гиперссылка c параметром id в URL</a></li>
+	<li><a href="./second_page.html"> 9)относительная ссылка на страницу в текущем каталоге </a> </li>
+	<li><a href="./about/page_in_about.html"> 10)относительная ссылка на страницу в каталоге about </a> </li>
+	<li><a href="./2/page2.html"> 11)относительная ссылка на страницу в каталоге на уровень выше</a> </li>
+	<li><a href="./2/3/page3.html"> 12)относительная ссылка на страницу в каталоге на два уровня выше</a> </li>
+	<li>13)Каждый точный бросок знаменитого<a href="https://dota2.fandom.com/ru/wiki/Pudge#Meat_Hook"> крюка</a> вселяет страх во врагов Pudge,<br>
+	ведь, притянув жертву, он душит её ядовитым газом и расчленяет её своим тесаком.<br>
+	С каждым убийством его здоровье и урон увеличиваются, и вскоре погибель от его рук<br>
+	становится неизбежной.</li>
+	<a name = "URLpoint"></a>
+	<li><a href="https://dota2.fandom.com/ru/wiki/Pudge#Rot">14)ссылка на фрагмент</a></li>
+                <img src="https://cybersport.metaratings.ru/upload/sprint.editor/875/87528cdb76be9b34225b09af4a9a0b2d.png" width="512" height="288" usemap="#map" alt="пудж">
+                <map name="map"> 
+                    <area shape="rect" alt="прямоугольник" coords="200,250,350,150" href="https://dota2.fandom.com/ru/wiki/Pudge/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F">
+                    <area shape="circle" alt="круг" coords="275,50,100" href="https://dota2.fandom.com/ru/wiki/Techies">
+                </map>
+	<li><a href=""> 16) cсылка с пустым href </a></li>
+	<li><a> 17) cсылка без href </a></li>
+	<li><a href="https://www.kubsu.ru" rel="nofollow"> 18)cсылка, по которой запрещен переход поисковикам</a></li>
+	<li><noindex><a href="https://www.kubsu.ru">19)pапрещённая ссылка для индексации поисковиками </a></noindex></li>
+	<li>
+20)Нумерованный список:
+	<ol>
+                <li> 
+                    <a href="https://dota2.fandom.com/ru/wiki/Mask_of_Madness">mask of madness</a>
+                </li>
+                <li>
+                     <a href="https://dota2.fandom.com/ru/wiki/Skull_Basher">skull basher</a>
+                </li>
+               <li>
+                    <a href="https://dota2.fandom.com/ru/wiki/Divine_Rapier/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F">divine rapier</a>
+               </li>
+        </ol>
+	</li>
+	<li><a href="ftp://arkoldasov:pas123@ftp.ru/temp/file.txt" > 21)cсылкa на файл на сервере FTP с авторизацией</a></li>
+  </ul>
+
+		<h1>форма</h1>
+
+		<p>введите ФИО:<br> <input type="text" name="fio" placeholder="Иванов Иван Иванович"></p>
+
+		<p>введите e-mail:<br> <input type="email" name="email" placeholder=""></p>	
+
+		<p>введите номер телефона:<br> <input type="tel" name="tel" placeholder="+7(___)___-__-__"></p>
+
+		<p>введите дату рождения:<br> <input type="date" name="date" value="2024-09-11"></p>
+
+		<p>пол:<br> <input type="radio" name="gender" value="val1">Женский <input type="radio" name="gender" value="val2">Мужской</p>
+
+		<p>выберите любимый язык программирования:<br>
+		<select name="progrlang" multiple="multiple">
+			<option value="Значение1" selected = "selected">Pascal</option>
+			<option value="Значение2" selected = "selected">C</option>
+			<option value="Значение3">C++</option>
+			<option value="Значение4">JavaScript</option>
+			<option value="Значение5">PHP</option>
+			<option value="Значение6">Python</option>
+			<option value="Значение7">Java</option>
+			<option value="Значение8">Haskel</option>
+			<option value="Значение9">C#</option>
+			<option value="Значение10">Kotlin</option>
+		</select></p>
+
+		<p>напишите вашу биографию: <br><textarea name="Text1" cols="40" rows="5" placeholder=""></textarea></p>
+
+		<p><input type="checkbox" checked="checked" name="check"> с контрактом ознакомлен(а)</p>
+
+		<p><input type="submit" value="отправить форму"></p>
+  </body>
+</html>
