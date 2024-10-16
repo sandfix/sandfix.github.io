@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zadanie 5</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <div class="box">
+    <form>
+        <div>
+             Введите количество
+            <input id="myinput">
+        </div>
+        <div class="radios" id="myradios">
+        <input type="radio" value="1" checked name="group1">1 (50 units)</input>
+        <input type="radio" value="2" name="group1">2 (various)</input>
+        <input type="radio" value="3" name="group1">3 (125 units)</input>
+        </div>
+        <div id="divcheckbox" style="display: none;" ><input type="checkbox" id="mycheckbox">checkbox(x1.5 units)</input></div>
+        <div id="myselect" style="display: none;">
+            Товар
+        <select id="selector">
+            <option value="n1">№1 - 100 units</option>
+            <option value="n2">№2 - 200 units</option>
+            <option value="n3">№3 - 300 units</option>
+            <option value="n4">№4 - 400 units</option>
+        </select>
+        </div>  
+    </form>
+    <div>Значение: <div id="result"></div></div>
+    </div>
+    <script src="javascr.js"></script>
+</body>
+</html>
